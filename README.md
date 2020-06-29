@@ -1,1 +1,2 @@
 # Work Day Scheduler Starter Code
+The daily planner is working as expected except for that I am having localstorage issues.  I am able to save the tasks and time in the application under dev tools but will not stay on the page after a refresh.  I have the current date and time at the top. The boxes are various colors based on the time of day.

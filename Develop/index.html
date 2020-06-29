@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -29,41 +30,41 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-        <div class="row">
+      <div class="row">
           <div class="col-1 hour">
             9AM
           </div>
-          <div id = "time" class="col-10">
-            <textarea placeholder="Enter task"></textarea>
+          <div data-time="9" id = "time" class="col-10 time-row">
+            <textarea placeholder="Enter task" id="9"></textarea>
           </div>
-          <div class="col-1 saveBtn">
-           
+          <div class="col-1 saveBtn" data-time="9">
+            <span class="oi oi-hard-drive"></span>
           </div>
         </div>
     </div>
       <div class="container">
-        <div data-time="10" class="row time-row">
+        <div class="row">
           <div class="col-1 hour">
             10AM
           </div>
-          <div class="col-10">
-            <textarea placeholder="Enter task"></textarea>
+          <div data-time="10" id = "time" class="col-10 time-row">
+            <textarea placeholder="Enter task" id="10"></textarea>
           </div>
-          <div class="col-1 saveBtn">
-            
+          <div class="col-1 saveBtn" data-time="10">
+            <span class="oi oi-hard-drive"></span>
           </div>
         </div>
       </div>
       <div class="container">
-        <div data-time="11" class="row time-row">
+        <div class="row">
           <div class="col-1 hour">
             11AM
           </div>
-          <div class="col-10">
-            <textarea placeholder="Enter task"></textarea>
+          <div data-time="11" id = "time" class="col-10 time-row">
+            <textarea placeholder="Enter task" id="11"></textarea>
           </div>
-          <div class="col-1 saveBtn">
-          
+          <div class="col-1 saveBtn" data-time="11">
+            <span class="oi oi-hard-drive"></span>
           </div>
         </div>
       </div>
@@ -72,11 +73,11 @@
           <div class="col-1 hour">
             12PM
           </div>
-          <div class="col-10">
-            <textarea placeholder="Enter task"></textarea>
+          <div data-time="12" id = "time" class="col-10 time-row">
+            <textarea placeholder="Enter task" id="12"></textarea>
           </div>
-          <div class="col-1 saveBtn">
-          
+          <div class="col-1 saveBtn" data-time="12">
+            <span class="oi oi-hard-drive"></span>
           </div>
         </div>
       </div>
@@ -85,11 +86,11 @@
           <div class="col-1 hour">
             1PM
           </div>
-          <div class="col-10">
-            <textarea placeholder="Enter task"></textarea>
+          <div data-time="13" id = "time" class="col-10 time-row">
+            <textarea placeholder="Enter task" id="13"></textarea>
           </div>
-          <div class="col-1 saveBtn">
-          
+          <div class="col-1 saveBtn" data-time="13">
+            <span class="oi oi-hard-drive"></span>
           </div>
         </div>
       </div>
@@ -98,11 +99,11 @@
           <div class="col-1 hour">
             2PM
           </div>
-          <div class="col-10">
-            <textarea placeholder="Enter task"></textarea>
+          <div data-time="14" id = "time" class="col-10 time-row">
+            <textarea placeholder="Enter task" id="14"></textarea>
           </div>
-          <div class="col-1 saveBtn">
-          
+          <div class="col-1 saveBtn" data-time="14">
+            <span class="oi oi-hard-drive"></span>
           </div>
         </div>
       </div>
@@ -111,11 +112,11 @@
           <div class="col-1 hour">
             3PM
           </div>
-          <div class="col-10 description">
-            <textarea placeholder="Enter task"></textarea>
+          <div data-time="15" id = "time" class="col-10 time-row">
+            <textarea placeholder="Enter task" id="15"></textarea>
           </div>
-          <div class="col-1 saveBtn">
-          
+          <div class="col-1 saveBtn" data-time="15">
+            <span class="oi oi-hard-drive"></span>
           </div>
         </div>
       </div>
@@ -124,11 +125,11 @@
           <div class="col-1 hour">
             4PM
           </div>
-          <div class="col-10">
-            <textarea placeholder="Enter task"></textarea>  
+          <div data-time="16" id = "time" class="col-10 time-row">
+            <textarea placeholder="Enter task" id="16"></textarea>  
           </div>
-          <div class="col-1 saveBtn">
-          
+          <div class="col-1 saveBtn" data-time="16">
+            <span class="oi oi-hard-drive"></span>
           </div>
         </div>
       </div>
@@ -137,11 +138,11 @@
           <div class="col-1 hour">
             5PM
           </div>
-          <div id = "time" class="col-10">
-            <textarea placeholder="Enter task"></textarea>
+          <div data-time="17" id = "time" class="col-10 time-row">
+            <textarea placeholder="Enter task" id="17"></textarea>
           </div>
-          <div id= "edit" class="col-1 saveBtn">
-          
+          <div class="col-1 saveBtn" data-time="17">
+            <span class="oi oi-hard-drive"></span>
           </div>
         </div>
       </div>
